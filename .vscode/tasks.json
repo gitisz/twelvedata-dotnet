@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "msbuild",
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "Rebuild: solution",
+			"detail": "Rebuild the TwelveData.sln solution using dotnet msbuild /t:Rebuild"
+		}
+	]
+}

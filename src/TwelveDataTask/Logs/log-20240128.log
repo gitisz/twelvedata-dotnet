@@ -1,0 +1,163 @@
+2024-01-28 22:04:13.985 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:04:14.003 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:04:14.124 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-28 22:04:14.125 -05:00 [INF] Hosting environment: Development
+2024-01-28 22:04:14.125 -05:00 [INF] Content root path: /Users/isz/Documents/Projects/twelvedata-dotnet/src/TwelveDataTask
+2024-01-28 22:04:14.342 -05:00 [INF] Received HTTP response headers after 337.9026ms - 200
+2024-01-28 22:04:14.344 -05:00 [INF] End processing HTTP request after 366.0305ms - 200
+2024-01-28 22:04:47.416 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:04:47.434 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:04:47.535 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-28 22:04:47.535 -05:00 [INF] Hosting environment: Development
+2024-01-28 22:04:47.535 -05:00 [INF] Content root path: /Users/isz/Documents/Projects/twelvedata-dotnet/src/TwelveDataTask
+2024-01-28 22:04:47.749 -05:00 [INF] Received HTTP response headers after 313.635ms - 200
+2024-01-28 22:04:47.752 -05:00 [INF] End processing HTTP request after 343.6805ms - 200
+2024-01-28 22:09:52.049 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:09:52.063 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:09:52.128 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-28 22:09:52.128 -05:00 [INF] Hosting environment: Development
+2024-01-28 22:09:52.128 -05:00 [INF] Content root path: /Users/isz/Documents/Projects/twelvedata-dotnet/src/TwelveDataTask
+2024-01-28 22:09:52.362 -05:00 [INF] Received HTTP response headers after 297.838ms - 200
+2024-01-28 22:09:52.364 -05:00 [INF] End processing HTTP request after 319.9426ms - 200
+2024-01-28 22:09:53.126 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:09:53.126 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:09:53.249 -05:00 [INF] Received HTTP response headers after 122.7169ms - 200
+2024-01-28 22:09:53.250 -05:00 [INF] End processing HTTP request after 123.9452ms - 200
+2024-01-28 22:09:54.135 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:09:54.136 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:09:54.265 -05:00 [INF] Received HTTP response headers after 128.6485ms - 200
+2024-01-28 22:09:54.265 -05:00 [INF] End processing HTTP request after 129.9886ms - 200
+2024-01-28 22:09:55.141 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:09:55.141 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:09:55.264 -05:00 [INF] Received HTTP response headers after 122.1547ms - 200
+2024-01-28 22:09:55.264 -05:00 [INF] End processing HTTP request after 123.4045ms - 200
+2024-01-28 22:09:56.145 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:09:56.145 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:09:56.270 -05:00 [INF] Received HTTP response headers after 124.8099ms - 200
+2024-01-28 22:09:56.270 -05:00 [INF] End processing HTTP request after 125.4865ms - 200
+2024-01-28 22:09:57.147 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:09:57.147 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:09:57.274 -05:00 [INF] Received HTTP response headers after 126.4642ms - 200
+2024-01-28 22:09:57.274 -05:00 [INF] End processing HTTP request after 127.3745ms - 200
+2024-01-28 22:09:58.150 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:09:58.151 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:09:58.280 -05:00 [INF] Received HTTP response headers after 129.2338ms - 200
+2024-01-28 22:09:58.281 -05:00 [INF] End processing HTTP request after 130.4145ms - 200
+2024-01-28 22:09:59.154 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:09:59.155 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:09:59.275 -05:00 [INF] Received HTTP response headers after 119.8895ms - 200
+2024-01-28 22:09:59.275 -05:00 [INF] End processing HTTP request after 121.1243ms - 200
+2024-01-28 22:10:00.159 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:10:00.159 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:10:00.278 -05:00 [INF] Received HTTP response headers after 119.1374ms - 200
+2024-01-28 22:10:00.278 -05:00 [INF] End processing HTTP request after 119.6977ms - 200
+2024-01-28 22:10:01.162 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:10:01.162 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:10:01.283 -05:00 [INF] Received HTTP response headers after 121.1081ms - 200
+2024-01-28 22:10:01.283 -05:00 [INF] End processing HTTP request after 121.8146ms - 200
+2024-01-28 22:10:02.166 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:10:02.167 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:10:02.313 -05:00 [INF] Received HTTP response headers after 146.1194ms - 200
+2024-01-28 22:10:02.313 -05:00 [INF] End processing HTTP request after 146.6182ms - 200
+2024-01-28 22:10:03.168 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:10:03.168 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:10:03.291 -05:00 [INF] Received HTTP response headers after 123.062ms - 200
+2024-01-28 22:10:03.291 -05:00 [INF] End processing HTTP request after 123.4665ms - 200
+2024-01-28 22:10:04.171 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:10:04.171 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?System.Collections.Specialized.NameValueCollection
+2024-01-28 22:10:08.207 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?symbol=COF
+2024-01-28 22:10:08.222 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?symbol=COF
+2024-01-28 22:10:08.287 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-28 22:10:08.288 -05:00 [INF] Hosting environment: Development
+2024-01-28 22:10:08.288 -05:00 [INF] Content root path: /Users/isz/Documents/Projects/twelvedata-dotnet/src/TwelveDataTask
+2024-01-28 22:10:08.509 -05:00 [INF] Received HTTP response headers after 285.2301ms - 200
+2024-01-28 22:10:08.512 -05:00 [INF] End processing HTTP request after 309.1935ms - 200
+2024-01-28 22:32:29.391 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?symbol=COF
+2024-01-28 22:32:29.407 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?symbol=COF
+2024-01-28 22:32:29.472 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-28 22:32:29.472 -05:00 [INF] Hosting environment: Development
+2024-01-28 22:32:29.472 -05:00 [INF] Content root path: /Users/isz/Documents/Projects/twelvedata-dotnet/src/TwelveDataTask
+2024-01-28 22:32:29.708 -05:00 [INF] Received HTTP response headers after 299.2885ms - 200
+2024-01-28 22:32:29.710 -05:00 [INF] End processing HTTP request after 323.3846ms - 200
+2024-01-28 22:32:30.759 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?symbol=COF
+2024-01-28 22:32:30.760 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?symbol=COF
+2024-01-28 22:32:30.883 -05:00 [INF] Received HTTP response headers after 122.8959ms - 200
+2024-01-28 22:32:30.883 -05:00 [INF] End processing HTTP request after 124.3957ms - 200
+2024-01-28 22:32:31.889 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?symbol=COF
+2024-01-28 22:32:31.890 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?symbol=COF
+2024-01-28 22:32:32.030 -05:00 [INF] Received HTTP response headers after 140.2238ms - 200
+2024-01-28 22:32:32.031 -05:00 [INF] End processing HTTP request after 141.6097ms - 200
+2024-01-28 22:32:33.033 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?symbol=COF
+2024-01-28 22:32:33.034 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?symbol=COF
+2024-01-28 22:32:33.159 -05:00 [INF] Received HTTP response headers after 124.9345ms - 200
+2024-01-28 22:32:33.159 -05:00 [INF] End processing HTTP request after 126.0741ms - 200
+2024-01-28 22:32:34.163 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?symbol=COF
+2024-01-28 22:32:34.163 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?symbol=COF
+2024-01-28 22:32:34.298 -05:00 [INF] Received HTTP response headers after 134.1158ms - 200
+2024-01-28 22:32:34.298 -05:00 [INF] End processing HTTP request after 135.2662ms - 200
+2024-01-28 22:32:35.303 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?symbol=COF
+2024-01-28 22:32:35.304 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?symbol=COF
+2024-01-28 22:32:35.420 -05:00 [INF] Received HTTP response headers after 115.3068ms - 200
+2024-01-28 22:32:35.420 -05:00 [INF] End processing HTTP request after 116.9125ms - 200
+2024-01-28 22:32:36.424 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?symbol=COF
+2024-01-28 22:32:36.424 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?symbol=COF
+2024-01-28 22:32:36.555 -05:00 [INF] Received HTTP response headers after 130.7388ms - 200
+2024-01-28 22:32:36.555 -05:00 [INF] End processing HTTP request after 131.9425ms - 200
+2024-01-28 22:32:55.279 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?symbol=COF
+2024-01-28 22:32:55.279 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?symbol=COF
+2024-01-28 22:32:55.412 -05:00 [INF] Received HTTP response headers after 133.0591ms - 200
+2024-01-28 22:32:55.412 -05:00 [INF] End processing HTTP request after 133.6335ms - 200
+2024-01-28 22:34:31.440 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?symbol=COF
+2024-01-28 22:34:31.457 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?symbol=COF
+2024-01-28 22:34:31.603 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-28 22:34:31.604 -05:00 [INF] Hosting environment: Development
+2024-01-28 22:34:31.604 -05:00 [INF] Content root path: /Users/isz/Documents/Projects/twelvedata-dotnet/src/TwelveDataTask
+2024-01-28 22:34:31.813 -05:00 [INF] Received HTTP response headers after 354.8712ms - 200
+2024-01-28 22:34:31.816 -05:00 [INF] End processing HTTP request after 382.5515ms - 200
+2024-01-28 22:34:31.893 -05:00 [ERR] BackgroundService failed
+System.Text.Json.JsonException: The JSON value could not be converted to System.Decimal. Path: $.price | LineNumber: 0 | BytePositionInLine: 20.
+ ---> System.InvalidOperationException: Cannot get the value of a token type 'String' as a number.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_ExpectedNumber(JsonTokenType tokenType)
+   at System.Text.Json.Utf8JsonReader.TryGetDecimal(Decimal& value)
+   at System.Text.Json.Utf8JsonReader.GetDecimal()
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, Utf8JsonReader& reader, Exception ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at TwelveData.Providers.TwelveDataProvider.GetPriceAsync(String symbol) in /Users/isz/Documents/Projects/twelvedata-dotnet/src/TwelveDataTask/Providers/TwelveDataProvider.cs:line 37
+   at TwelveData.Services.TwelveDataService.ExecuteAsync(CancellationToken stoppingToken) in /Users/isz/Documents/Projects/twelvedata-dotnet/src/TwelveDataTask/Services/TwelveDataService.cs:line 33
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2024-01-28 22:34:31.898 -05:00 [FTL] The HostOptions.BackgroundServiceExceptionBehavior is configured to StopHost. A BackgroundService has thrown an unhandled exception, and the IHost instance is stopping. To avoid this behavior, configure this to Ignore; however the BackgroundService will not be restarted.
+System.Text.Json.JsonException: The JSON value could not be converted to System.Decimal. Path: $.price | LineNumber: 0 | BytePositionInLine: 20.
+ ---> System.InvalidOperationException: Cannot get the value of a token type 'String' as a number.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_ExpectedNumber(JsonTokenType tokenType)
+   at System.Text.Json.Utf8JsonReader.TryGetDecimal(Decimal& value)
+   at System.Text.Json.Utf8JsonReader.GetDecimal()
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, Utf8JsonReader& reader, Exception ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at TwelveData.Providers.TwelveDataProvider.GetPriceAsync(String symbol) in /Users/isz/Documents/Projects/twelvedata-dotnet/src/TwelveDataTask/Providers/TwelveDataProvider.cs:line 37
+   at TwelveData.Services.TwelveDataService.ExecuteAsync(CancellationToken stoppingToken) in /Users/isz/Documents/Projects/twelvedata-dotnet/src/TwelveDataTask/Services/TwelveDataService.cs:line 33
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2024-01-28 22:34:31.899 -05:00 [INF] Application is shutting down...
+2024-01-28 22:37:21.915 -05:00 [INF] Start processing HTTP request GET https://api.twelvedata.com/price?symbol=COF
+2024-01-28 22:37:21.932 -05:00 [INF] Sending HTTP request GET https://api.twelvedata.com/price?symbol=COF
+2024-01-28 22:37:22.001 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-28 22:37:22.002 -05:00 [INF] Hosting environment: Development
+2024-01-28 22:37:22.002 -05:00 [INF] Content root path: /Users/isz/Documents/Projects/twelvedata-dotnet/src/TwelveDataTask
+2024-01-28 22:37:22.210 -05:00 [INF] Received HTTP response headers after 277.104ms - 200
+2024-01-28 22:37:22.213 -05:00 [INF] End processing HTTP request after 303.4146ms - 200
+2024-01-28 22:42:52.011 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-28 22:42:52.030 -05:00 [INF] Hosting environment: Development
+2024-01-28 22:42:52.030 -05:00 [INF] Content root path: /Users/isz/Documents/Projects/twelvedata-dotnet/src/TwelveDataTask

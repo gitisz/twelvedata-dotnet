@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  twelvedata:
+    image: your-hub/twelvedata-dotnet
+    environment:
+      TWELVE_DATA_API_KEY: "${TWELVE_DATA_API_KEY}"
+      INFLUX_DB_V2_TOKEN: "${INFLUX_DB_V2_TOKEN}"
+      INFLUX_DB_V2_ORG: "${INFLUX_DB_V2_ORG}"
