@@ -1,3 +1,5 @@
+using System.Diagnostics;
+using System.Text.Json;
 using InfluxDB.Client;
 using InfluxDB.Client.Api.Domain;
 using TwelveData.Models;
@@ -26,11 +28,12 @@ public class TwelveDataService : BackgroundService
         while (!stoppingToken.IsCancellationRequested)
         {
             foreach (var symbol in _configuration.GetSection("TwelveData:Symbols").Get<string[]>() ?? [])
-                if (DateTimeOffset.Now.LocalDateTime > DateTimeOffset.Now.LocalDateTime.Date.AddHours(9)
+                if (DateTimeOffset.Now > DateTimeOffset.Now.Date.AddHours(9)
                     && DateTimeOffset.Now.LocalDateTime < DateTimeOffset.Now.LocalDateTime.Date.AddHours(17))
                 {
 
                     var price = await _twelveDataProvider.GetPriceAsync(symbol);
+
                     UpdateBucket(price);
                 }
 
@@ -51,6 +54,8 @@ public class TwelveDataService : BackgroundService
 
         using var client = new InfluxDBClient(influxDBUri, influxDBToken);
         using var writeApi = client.GetWriteApi();
+
+        _logger.LogInformation($"Saving price: {JsonSerializer.Serialize(twelveDataPrice)}");
 
         writeApi.WriteMeasurement(twelveDataPrice, WritePrecision.Ns, influxDBBucket, influxDBOrg);
     }

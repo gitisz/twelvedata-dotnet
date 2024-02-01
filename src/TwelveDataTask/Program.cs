@@ -16,7 +16,16 @@ builder.Logging.ClearProviders();
 Log.Logger = new LoggerConfiguration()
     .ReadFrom.Configuration(builder.Configuration)
     .CreateLogger();
+
 builder.Logging.AddSerilog();
+builder.Logging.Configure(options =>
+{
+    options.ActivityTrackingOptions = ActivityTrackingOptions.SpanId
+                                       | ActivityTrackingOptions.TraceId
+                                       | ActivityTrackingOptions.ParentId
+                                       | ActivityTrackingOptions.Baggage
+                                       | ActivityTrackingOptions.Tags;
+});
 
 
 var host = builder.Build();

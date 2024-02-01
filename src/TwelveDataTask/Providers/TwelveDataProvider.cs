@@ -35,6 +35,7 @@ public class TwelveDataProvider
         if (response.IsSuccessStatusCode)
         {
             var price = JsonSerializer.Deserialize<TwelveDataPrice>(content) ?? throw new ArgumentException("Seven Hells!");
+
             price.Symbol = symbol;
 
             return price;
