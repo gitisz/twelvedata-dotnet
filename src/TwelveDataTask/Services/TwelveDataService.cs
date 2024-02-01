@@ -28,14 +28,19 @@ public class TwelveDataService : BackgroundService
         while (!stoppingToken.IsCancellationRequested)
         {
             foreach (var symbol in _configuration.GetSection("TwelveData:Symbols").Get<string[]>() ?? [])
-                if (DateTimeOffset.Now > DateTimeOffset.Now.Date.AddHours(9)
-                    && DateTimeOffset.Now.LocalDateTime < DateTimeOffset.Now.LocalDateTime.Date.AddHours(17))
-                {
+            {
+                var marketOpen = DateTimeOffset.Now > DateTimeOffset.Now.Date.AddHours(9)
+                    && DateTimeOffset.Now.LocalDateTime < DateTimeOffset.Now.LocalDateTime.Date.AddHours(17);
 
+                _logger.LogInformation($"Checking if market is open: {DateTimeOffset.Now} - {marketOpen}");
+
+                if (marketOpen)
+                {
                     var price = await _twelveDataProvider.GetPriceAsync(symbol);
 
                     UpdateBucket(price);
                 }
+            }
 
             await Task.Delay(TimeSpan.FromMinutes(1), stoppingToken);
         }
