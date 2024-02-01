@@ -29,12 +29,10 @@ public class TwelveDataService : BackgroundService
         {
             foreach (var symbol in _configuration.GetSection("TwelveData:Symbols").Get<string[]>() ?? [])
             {
-
-                var dateTime = DateTime.SpecifyKind(DateTimeOffset.Now.DateTime, DateTimeKind.Local);
-                var marketOpen = dateTime > DateTimeOffset.Now.Date.AddHours(9)
+                var marketOpen = DateTimeOffset.Now > DateTimeOffset.Now.Date.AddHours(9)
                     && DateTimeOffset.Now.LocalDateTime < DateTimeOffset.Now.LocalDateTime.Date.AddHours(17);
 
-                _logger.LogInformation($"Checking if market is open: {dateTime} - {marketOpen}");
+                _logger.LogInformation($"Checking if market is open: {DateTimeOffset.Now} - {marketOpen}");
 
                 if (marketOpen)
                 {
@@ -42,7 +40,7 @@ public class TwelveDataService : BackgroundService
 
                     UpdateBucket(price);
                 }
-            }
+                }
 
             await Task.Delay(TimeSpan.FromMinutes(1), stoppingToken);
         }
