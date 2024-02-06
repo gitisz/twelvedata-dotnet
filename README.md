@@ -23,6 +23,8 @@ Reference `appsettings.Development.json` and update the correct values for your 
       - Note: Do not provide the actual login . When starting this application, an environment variable should be set with the actual login that matches the key.
   - **"Symbols"**: Specify an array of the symbols for the prices desired to be captured.
     - [ "TSLA", "COF" ]
+  - **"MarketOpen"**: The time expressed in military time when the market opens. Requests to TwelveData will only occur between `MarketOpen` and `MarketClose`.
+  - **"MarketClose"**: The time expressed in military time when the market closes. Requests to TwelveData will only occur between `MarketOpen` and `MarketClose`.
 
 
 from(bucket: "twelvedata_dotnet") |> range(start: -24h, stop: now()) |> filter(fn: (r) => r["_measurement"] == "TwelveDataPrice") |> filter(fn: (r) => r["symbol"] == "SYMBOL")   |> filter(fn: (r) => r["_field"] == "price")   |> yield(name: "mean")
