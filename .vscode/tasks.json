@@ -2,14 +2,17 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"type": "msbuild",
+			"type": "process",
+			"command": "dotnet",
+			"args": [
+				"build",
+				"${workspaceFolder}/src/TwelveDataTask/TwelveDataTask.csproj",
+				"/property:GenerateFullPath=true",
+				"/consoleloggerparameters:NoSummary"
+			],
 			"problemMatcher": [
 				"$msCompile"
 			],
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			},
 			"label": "Rebuild: solution",
 			"detail": "Rebuild the TwelveData.sln solution using dotnet msbuild /t:Rebuild"
 		}

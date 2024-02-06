@@ -25,3 +25,10 @@ Reference `appsettings.Development.json` and update the correct values for your 
     - [ "TSLA", "COF" ]
 
 
+from(bucket: "twelvedata_dotnet") |> range(start: -24h, stop: now()) |> filter(fn: (r) => r["_measurement"] == "TwelveDataPrice") |> filter(fn: (r) => r["symbol"] == "SYMBOL")   |> filter(fn: (r) => r["_field"] == "price")   |> yield(name: "mean")
+
+from(bucket: "twelvedata_dotnet")
+  |> range(start: -24h, stop: now())
+  |> filter(fn: (r) => r["_measurement"] == "TwelveDataPrice")
+  |> filter(fn: (r) => r["symbol"] == "SYMBOL")
+  |> yield(name: "mean")
